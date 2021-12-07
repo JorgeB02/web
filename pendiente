@@ -1,0 +1,35 @@
+
+
+
+
+a) index.html (pagina principal)  🗸
+
+b) dos páginas adicionales con los productos que es usuario pueda comprar.
+
+c) Login de acceso.  🗸
+
+d) registrarse en la tienda (es el supuesto que no este inscrito)  🗸
+
+e) carrito de compra ( visualiza los productos que selecciona el usuario.    casi
+
+
+
+
+
+BASES DE DATOS
+
+
+
+a) tabla para login  🗸
+
+b) tabla para productos   🗸
+
+c) tabla provisional para guardar los producto del usuario antes de pagar
+
+d) tabla dato personales   🗸
+
+e) tabla para guardar los datos de todos los usuarios que han comprado durante el día.
+
+
+
+que session dure 1 dia

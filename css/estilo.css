@@ -1,0 +1,86 @@
+/*TODO Funcion de color */
+:root{
+    --main-header-color: black;
+}
+/*TODO Fondo Web*/
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+/* TODO Cabecero*/
+header{
+	height: 40px;
+	padding: 10px;
+	width: calc(100% - 20px);
+	line-height: 40px;
+	display: flex;
+	background: var(--main-header-color);
+	position: fixed;
+	top:0;
+	left: 0;
+}
+
+.logo-place{
+    font-size: 20px;
+    padding:0px 0px 0px 5%;
+    color:white;   
+    font-weight: bold;
+   }
+   
+/*TODO Barra de busqueda*/
+.search-place{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10%;
+}
+.search-place input{
+    width: 100%;
+    font-size: 15px;
+    background-color: #fefefe;
+    border:solid #fefefe;
+    padding: 7px;
+}
+
+.search-place input::placeholder{
+   color: #ccc;
+}
+
+/*TODO Opciones para el usuario*/
+.btn-main{
+    font-size: 15px;
+    background-color: #fff;
+    border: #ccc;
+    padding: 7px;
+    cursor: pointer;
+}
+.btn-search{
+    width: 30px;
+    color: black;
+}
+.options-place{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.item-option{
+    padding: 0% 3%;
+    line-height: 30px;
+    font-size: 200%;
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+}
+.item-option p{ 
+	font-size: 15px;
+	margin: 0;
+	margin-left: 5px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
